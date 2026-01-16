@@ -25,15 +25,12 @@ new commit *AFTER* status
 
 ## TODO - within this repo
 ### Basics
-- Add README text
-- add .gitignore
+* DONE - Add README text
+* DONE add .gitignore
+* TODO add all current configs to this before making changes
 
 ### Others
-- trim extraneous configs
--
--
-
+* trim extraneous configs
 
 ### Farther Future
 * See about adding auto-commits and pushes when a change has occurred
- * Test asterisk on 1st col of text
