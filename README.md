@@ -18,6 +18,8 @@ new commit *AFTER* status
 
 ### Tmux
 * Change switch pane bindings to be vim-like
+* Change new pane bindings to - or = and | or ! 
+    * something where the line goes the direction of the new pane seperator
 
 ### Vim
 * Remove exit insert mode keymap to learn C-[
