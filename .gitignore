@@ -6,3 +6,14 @@
 
 # except for this file!
 !.gitignore
+
+# And the README!
+!README.md
+
+# Add Tmux Configs
+
+
+# Add Vim Configs
+
+
+# Add Bash Configs:

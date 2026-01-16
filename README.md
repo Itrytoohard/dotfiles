@@ -3,14 +3,19 @@
 # git instructions
 
 what tf is going on?
+
 `git status`
 
 push to remote
+
 `git push -u origin main`
 
 new commit *AFTER* status
+
 `git status`
+
 `git add filename.ext`
+
 `git commit -m "commit message"`
 
 
@@ -30,6 +35,12 @@ new commit *AFTER* status
 * DONE - Add README text
 * DONE add .gitignore
 * TODO add all current configs to this before making changes
+* TODO add vim Configs
+* TODO add tmux configs
+* TODO add bash configs
+
+
+
 
 ### Others
 * trim extraneous configs
