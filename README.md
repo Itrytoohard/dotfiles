@@ -21,6 +21,8 @@ new commit *AFTER* status
 
 ## TODO
 
+Figure out Chezmoi
+
 ### Tmux
 * Change switch pane bindings to be vim-like
 * Change new pane bindings to - or = and | or ! 

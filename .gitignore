@@ -11,9 +11,10 @@
 !README.md
 
 # Add Tmux Configs
-
+.tmux.conf
 
 # Add Vim Configs
-
+!.vimrc
 
 # Add Bash Configs:
+!.bash_aliases
