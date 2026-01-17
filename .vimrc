@@ -91,7 +91,7 @@ call plug#end()
 " https://github.com/devsjc/vim-jb
 
 if has('termguicolors')
-  set termguicolors
+"  set termguicolors
 endif
 "let g:java_ignore_markdown=1
 "let g:jb_style='dark'
