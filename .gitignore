@@ -16,5 +16,8 @@
 # Add Vim Configs
 !.vimrc
 
+# Vim - Darcula plugin - modified
+!.vim/plugged/darcula/colors/darcula.vim
+
 # Add Bash Configs:
 !.bash_aliases
