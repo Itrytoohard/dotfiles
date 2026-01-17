@@ -11,7 +11,7 @@
 !README.md
 
 # Add Tmux Configs
-.tmux.conf
+!.tmux.conf
 
 # Add Vim Configs
 !.vimrc
