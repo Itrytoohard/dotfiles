@@ -41,7 +41,8 @@ Figure out Chezmoi
 * TODO add tmux configs
 * TODO add bash configs
 
-
+### Non-config
+* Add syntax files
 
 
 ### Others

@@ -40,7 +40,7 @@ set softtabstop=4
 
 
 if has('termguicolors')
-  set termguicolors
+"  set termguicolors
 endif
 
 
@@ -51,7 +51,7 @@ endif
 let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
 if empty(glob(data_dir . '/autoload/plug.vim'))
   silent execute '!curl -fLo '.data_dir.'/autoload/plug.vim --create-dirs  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
-  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+  autocmd VimEnter * Plugstall --sync | source $MYVRC
 endif
 " End vim-plug script "
 
@@ -68,10 +68,10 @@ Plug 'junegunn/vim-plug'
 Plug 'sheerun/vim-polyglot'
 
 "" Jetbrains Theme Plugin
-Plug 'devsjc/vim-jb'
+"Plug 'devsjc/vim-jb'
 
 " Darcula Theme
-Plug 'doums/darcula'
+"Plug 'doums/darcula'
 
 
 
@@ -96,29 +96,29 @@ endif
 "let g:java_ignore_markdown=1
 "let g:jb_style='dark'
 "colorscheme jbcolorscheme jb
-"call darcula#Hi('markdownId', [ '#000000', 16 ])
-colorscheme darcula
-call darcula#Hi('markdownId', [ '#000000', 16 ])
-call darcula#Hi('markdownLineStart', [ '#000000', 16 ])
-call darcula#Hi('markdownH1', [ '#000000', 16 ])
-call darcula#Hi('markdownH2', [ '#000000', 16 ])
-call darcula#Hi('markdownHeadingRule', [ '#000000', 16 ])
-call darcula#Hi('markdownRule', [ '#000000', 16 ])
-call darcula#Hi('markdownCode', [ '#000000', 16 ])
-call darcula#Hi('markdownCodeBlock', [ '#000000', 16 ])
-call darcula#Hi('markdownIdDeclaration', [ '#000000', 16 ])
-call darcula#Hi('background', [ '#FFFFFF', 16 ])
-highlight Normal ctermbg=black
-" To change background to black, go to
-" /.vim/plugged/darcula/colors/darcula.vim
-highlight Normal ctermbg=black
-
-"Enables syntax highlighting
-syntax on
- 
-" Enables <line number> and <relative line numbers> 
-set number relativenumber
-
+"call darcula#Hi('markdown', [ '#000000', 16 ])
+"colorscheme darcula
+"call darcula#Hi('markdown', [ '#000000', 16 ])
+"call darcula#Hi('markdownLineStart', [ '#000000', 16 ])
+"call darcula#Hi('markdownH1', [ '#000000', 16 ])
+"call darcula#Hi('markdownH2', [ '#000000', 16 ])
+"call darcula#Hi('markdownHeadingRule', [ '#000000', 16 ])
+"call darcula#Hi('markdownRule', [ '#000000', 16 ])
+"call darcula#Hi('markdownCode', [ '#000000', 16 ])
+"call darcula#Hi('markdownCodeBlock', [ '#000000', 16 ])
+"call darcula#Hi('markdownDeclaration', [ '#000000', 16 ])
+"call darcula#Hi('background', [ '#FFFFFF', 16 ])
+"highlight Normal ctermbg=black
+"" To change background to black, go to
+"" /.vim/plugged/darcula/colors/darcula.vim
+"highlight Normal ctermbg=black
+"
+""Enables syntax highlighting
+"syntax on
+" 
+"" Enables <line number> and <relative line numbers> 
+"set number relativenumber
+"
 highlight LineNrAbove ctermfg=DarkRed
 highlight LineNrBelow ctermfg=LightGreen
 highlight CursorLineNr ctermfg=White
